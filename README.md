@@ -1,4 +1,19 @@
 # connect 
+
+# Databases 
+First we will write this code in database in SQL
+
+CREATE DATABASE  my_database;
+
+USE my_database;
+
+CREATE TABLE movement_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    direction VARCHAR(255) NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+
 The `ro.zip` file contains the following files:
 
 1. `icon.png`: An image file, likely an icon.
