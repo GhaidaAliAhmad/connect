@@ -62,3 +62,6 @@ This PHP file handles the backend logic for recording movement directions. Here'
 # Summary
 
 The contents of `ro.zip` represent a simple web application for controlling movements. The `index.html` file provides a user interface with buttons to send movement commands (Forward, Left, Stop, Right, Backward) to the server. The `record_movement.php` file processes these commands by inserting the specified direction into a database, handling errors and exceptions accordingly. The `icon.png` is used as a favicon for the web page.
+
+# Result
+https://github.com/user-attachments/assets/ca9a76b1-962d-4b0b-bef4-fc66233900ad
